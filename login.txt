@@ -1,1 +1,4 @@
 git remote add origin https://github.com/MTAGandolf8686/GitBasics.git
+//For internal to external git.
+git config --global http.proxy http://172.18.18.194:3128
+git config --global https.proxy http://172.18.18.194:3128
