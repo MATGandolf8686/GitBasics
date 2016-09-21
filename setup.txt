@@ -1,0 +1,15 @@
+//Sets up the initial local Git repository.
+git init
+
+//Sets up proxies for internal to external Git usage.
+git config --global http.proxy http://172.18.18.194:3128
+git config --global https.proxy https://172.18.18.194:3128
+
+//Add the Github project as a remote server.
+git remote add https://github.com/MATGandolf8686/GitBasics
+
+//Get the repository from the remote server.
+git fetch origin
+
+//Pull the files from the remote and update it onto the local master branch.
+git pull origin master
